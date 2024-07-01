@@ -1,4 +1,17 @@
-
+library(ggplot2)
+library(ggthemes)
+library(lubridate)
+library(dplyr)
+library(tidyr)
+library(DT)
+library(scales)
+install.packages("ggplot2")
+install.packages("ggthemes")
+install.packages("lubridate")
+install.packages("dplyr")
+install.packages("tidyr")
+install.packages("DT")
+install.packages("scales")
 Mall_customers <- read.csv("C:/Users/BRIGHTY/Downloads/Mall_Customers.csv")
 
 # Summary Statistics
